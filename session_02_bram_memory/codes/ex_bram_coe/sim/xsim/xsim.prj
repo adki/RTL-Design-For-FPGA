@@ -1,0 +1,6 @@
+verilog work \
+        -i ../../bench/verilog\
+           ../../bench/verilog/top.v\
+        -i ../../bram/vivado.$FPGA_TYPE/bram_32x8KB\
+           ../../bram/vivado.$FPGA_TYPE/bram_32x8KB/bram_32x8KB_sim_netlist.v
+

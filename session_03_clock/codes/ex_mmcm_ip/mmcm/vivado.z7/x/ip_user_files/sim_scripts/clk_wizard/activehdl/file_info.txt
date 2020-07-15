@@ -1,0 +1,5 @@
+xpm_cdc.sv,systemverilog,xpm,../../../../../../../../../../opt/Xilinx/Vivado/2019.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv,incdir="../../../ipstatic"incdir="../../../ipstatic"
+xpm_VCOMP.vhd,vhdl,xpm,../../../../../../../../../../opt/Xilinx/Vivado/2019.2/data/ip/xpm/xpm_VCOMP.vhd,incdir="../../../ipstatic"incdir="../../../ipstatic"
+clk_wizard_clk_wiz.v,verilog,xil_defaultlib,../../../../clk_wizard/clk_wizard_clk_wiz.v,incdir="../../../ipstatic"incdir="../../../ipstatic"
+clk_wizard.v,verilog,xil_defaultlib,../../../../clk_wizard/clk_wizard.v,incdir="../../../ipstatic"incdir="../../../ipstatic"
+glbl.v,Verilog,xil_defaultlib,glbl.v

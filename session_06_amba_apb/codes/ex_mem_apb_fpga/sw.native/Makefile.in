@@ -1,0 +1,129 @@
+SHELL=/bin/sh
+ARCH=$(shell uname)
+
+TARGET?=test
+
+ARCH=$(shell uname -s)
+ifeq ($(findstring MINGW,$(ARCH)),MINGW)
+      PLATFORM:=mingw
+else ifeq ($(findstring CYGWIN,$(ARCH)),CYGWIN)
+      PLATFORM:=cygwin
+else ifeq ($(findstring Linux,$(ARCH)),Linux)
+      PLATFORM:=linux
+endif
+KERN:=$(PLATFORM)
+MACHINE:=$(shell uname -m)
+MACH:=$(MACHINE)
+PROCESSOR:=$(uname -p)
+
+ifndef CONFMC_HOME
+       ifeq ($(PLATFORM),linux)
+         export CONFMC_HOME=${HOME}/work/projects/ez-usb-fx3
+       else
+         export CONFMC_HOME=/z/work/projects/ez-usb-fx3
+       endif
+       ifdef PATH
+         export PATH=$(CONFMC_HOME)/bin:$(shell printenv PATH)
+       else
+         export PATH=$(CONFMC_HOME)/bin
+       endif
+       ifdef LD_LIBRARY_PATH
+         export LD_LIBRARY_PATH=$(CONFMC_HOME)/lib/$(KERN)_$(MACH):$(shell printenv LD_LIBRARY_PATH)
+       else
+         export LD_LIBRARY_PATH=$(CONFMC_HOME)/lib/$(KERN)_$(MACH)
+       endif
+       ifdef C_INCLUDE_PATH
+         export C_INCLUDE_PATH=$(CONFMC_HOME)/include:$(shell printenv C_INCLUDE_PATH)
+       else
+         export C_INCLUDE_PATH=$(CONFMC_HOME)/include
+       endif
+       ifdef CPLUS_INCLUDE_PATH
+         export CPLUS_INCLUDE_PATH=$(CONFMC_HOME)/include:$(shell printenv CPLUS_INCLUDE_PATH)
+       else
+         export CPLUS_INCLUDE_PATH=$(CONFMC_HOME)/include
+       endif
+       ifdef PYTHONPATH
+         export PYTHONPATH=$(CONFMC_HOME)/python/$(PLATFORM)_$(MACH):$(shell printenv PYTHONPATH)
+       else
+         export PYTHONPATH=$(CONFMC_HOME)/python/$(PLATFORM)_$(MACH)
+       endif
+endif
+DEFINES=
+CFLAGS=-std=gnu99
+LDFLAGS=
+
+ifeq ($(findstring Linux,$(ARCH)),Linux)
+    CC=gcc
+    DEFINES+=
+    CFLAGS+=-I$(CONFMC_HOME)/include
+    LDFLAGS+=-L$(CONFMC_HOME)/lib/$(PLATFORM)_$(MACHINE) -lconapi -lusb-1.0
+else ifeq ($(findstring MINGW,$(ARCH)),MINGW)
+    CC=gcc
+    DIR_LIBUSB=$(CONFMC_HOME)/libusb-1.0.22.win
+    DEFINES+=-DCOMPAT_MINGW_MS_VSNPRINTF -DBUILDING_STATIC
+    CFLAGS+=-I$(CONFMC_HOME)/include -I$(DIR_LIBUSB)/include
+    ifeq ($(MACHINE),x86_64)
+    LDFLAGS+=-L$(CONFMC_HOME)/lib/$(PLATFORM)_$(MACHINE) -Wl,-Bstatic -lconapi\
+             -L$(DIR_LIBUSB)/MinGW64/static -Wl,-Bstatic -lusb-1.0
+    else
+    LDFLAGS+=-L$(CONFMC_HOME)/lib/$(PLATFORM)_$(MACHINE) -Wl,-Bstatic -lconapi\
+             -L$(DIR_LIBUSB)/MinGW32/static -Wl,-Bstatic -lusb-1.0
+    endif
+else ifeq ($(findstring CYGWIN,$(ARCH)),CYGWIN)
+    ifeq ($(MACHINE),x86_64)
+        CC=$(MACHINE)-w64-mingw32-gcc
+    else
+        CC=$(MACHINE)-w32-mingw32-gcc
+    endif
+    DIR_LIBUSB=$(CONFMC_HOME)/libusb-1.0.22.win
+    DEFINES+=
+    CFLAGS+=-I$(CONFMC_HOME)/include -I$(DIR_LIBUSB)/include
+    ifeq ($(MACHINE),x86_64)
+    LDFLAGS+=-L$(CONFMC_HOME)/lib/$(PLATFORM)_$(MACHINE) -lconapi\
+             -L$(DIR_LIBUSB)/MinGW64/static -lusb-1.0
+    else
+    LDFLAGS+=-L$(CONFMC_HOME)/lib/$(PLATFORM)_$(MACHINE) -lconapi\
+             -L$(DIR_LIBUSB)/MinGW32/static -lusb-1.0
+    endif
+endif
+
+ifndef OBJECTDIR
+  OBJECTDIR = obj
+endif
+ifeq (${wildcard $(OBJECTDIR)},)
+  DUMMY:= $(shell mkdir $(OBJECTDIR))
+else
+  DUMMY:= $(shell rm -rf $(OBJECTDIR))
+  DUMMY:= $(shell mkdir $(OBJECTDIR))
+endif
+
+DEFINES+=-DTRX_BFM -DTRX_AHB -DRIGOR -DVERBOSE
+CFLAGS+=-Isrc -I${CONFMC_HOME}/hwlib/trx_axi/api/c
+
+OBJS    = $(SRC:.c=.o)
+
+H_DIR           = src:${CONFMC_HOME}/hwlib/trx_axi/api/c:$(CONFMC_HOME)/include
+C_DIR           = src:${CONFMC_HOME}/hwlib/trx_axi/api/c
+
+vpath %.h       $(H_DIR)
+vpath %.c       $(C_DIR)
+
+$(OBJECTDIR)/%.o: %.c
+	$(CC) -c $(DEFINES) $(CFLAGS) -o $@ $<
+
+$(TARGET): $(addprefix $(OBJECTDIR)/,$(OBJS))
+	$(CC) -o $(TARGET) $^ $(LDFLAGS)
+
+pre:
+	if [ -f compile.log ]; then /bin/rm -f compile.log; fi
+
+clean:
+	/bin/rm -fr obj
+	/bin/rm -f  $(TARGET)
+	/bin/rm -f  $(TARGET).exe
+
+cleanup: clean
+
+cleanupall: cleanup
+
+# $ make DEFINES=-DDEBUG=1

@@ -1,0 +1,37 @@
+set -tmpdir .
+run
+-ifmt                        MIXED
+-top                         $top_target
+-p                           $device_target
+-ifn                         $design
+-vlgincdir                   $inc_dir
+-ofn                         $top_target
+-ofmt                        NGC
+-opt_mode                    Speed
+-opt_level                   1
+-keep_hierarchy              Yes
+-glob_opt                    AllClockNets
+-write_timing_constraints    No
+-fsm_extract                 YES
+-fsm_encoding                User
+-mux_extract                 YES
+-resource_sharing            YES
+-rom_extract                 Yes
+-ram_extract                 Yes
+-ram_style                   Auto
+-mux_style                   Auto
+-decoder_extract             YES
+-priority_extract            YES
+-shreg_extract               YES
+-shift_extract               YES
+-xor_collapse                YES
+-iobuf                       NO
+-equivalent_register_removal YES
+-bufg                        4
+-max_fanout                  100
+-register_duplication        YES
+-register_balancing          No
+-move_first_stage            YES
+-move_last_stage             YES
+-slice_packing               YES
+-iob                         auto

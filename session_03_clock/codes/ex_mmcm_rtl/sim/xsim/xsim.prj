@@ -1,0 +1,7 @@
+verilog work \
+           $XILINX_VIVADO/data/verilog/src/glbl.v\
+        -i ../../bench/verilog\
+           ../../bench/verilog/top.v\
+        -i ../../rtl/verilog\
+           ../../rtl/verilog/clkmgra.v
+

@@ -1,0 +1,11 @@
+//-----------------------------------------
++incdir+../design
+//-----------------------------------------
+../design/top.v
+../design/full_adder.v
+../design/half_adder_gate.v
+../design/half_adder_rtl.v
+../design/stimulus.v
+../design/full_adder_ref.v
+../design/checker.v
+//-----------------------------------------

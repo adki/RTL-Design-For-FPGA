@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="./isim.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="cadb_top" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="128" />
+   <wvobject fp_name="/cadb_top/Usoc/RESET_N" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RESET_N</obj_property>
+      <obj_property name="ObjectShortName">RESET_N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/CORE_CLK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CORE_CLK</obj_property>
+      <obj_property name="ObjectShortName">CORE_CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/AHB_CLK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">AHB_CLK</obj_property>
+      <obj_property name="ObjectShortName">AHB_CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/CLOCK_RATIO_CORE_AHB" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CLOCK_RATIO_CORE_AHB[1:0]</obj_property>
+      <obj_property name="ObjectShortName">CLOCK_RATIO_CORE_AHB[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/SRAM_CLK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SRAM_CLK</obj_property>
+      <obj_property name="ObjectShortName">SRAM_CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/SRAM_A" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">SRAM_A[19:0]</obj_property>
+      <obj_property name="ObjectShortName">SRAM_A[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/SRAM_ADV_N" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SRAM_ADV_N</obj_property>
+      <obj_property name="ObjectShortName">SRAM_ADV_N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/SRAM_ADSP_N" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SRAM_ADSP_N</obj_property>
+      <obj_property name="ObjectShortName">SRAM_ADSP_N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/SRAM_ADSC_N" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SRAM_ADSC_N</obj_property>
+      <obj_property name="ObjectShortName">SRAM_ADSC_N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/SRAM_CS1_N" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SRAM_CS1_N</obj_property>
+      <obj_property name="ObjectShortName">SRAM_CS1_N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/SRAM_CS2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SRAM_CS2</obj_property>
+      <obj_property name="ObjectShortName">SRAM_CS2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/SRAM_CS2_N" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SRAM_CS2_N</obj_property>
+      <obj_property name="ObjectShortName">SRAM_CS2_N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/SRAM_WE_N" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">SRAM_WE_N[3:0]</obj_property>
+      <obj_property name="ObjectShortName">SRAM_WE_N[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/SRAM_OE_N" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SRAM_OE_N</obj_property>
+      <obj_property name="ObjectShortName">SRAM_OE_N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/SRAM_GW_N" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SRAM_GW_N</obj_property>
+      <obj_property name="ObjectShortName">SRAM_GW_N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/SRAM_BW_N" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SRAM_BW_N</obj_property>
+      <obj_property name="ObjectShortName">SRAM_BW_N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/SRAM_ZZ" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SRAM_ZZ</obj_property>
+      <obj_property name="ObjectShortName">SRAM_ZZ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/SRAM_LBO_N" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SRAM_LBO_N</obj_property>
+      <obj_property name="ObjectShortName">SRAM_LBO_N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/SRAM_D_O" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">SRAM_D_O[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SRAM_D_O[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/SRAM_D_I" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">SRAM_D_I[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SRAM_D_I[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/SRAM_D_T" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SRAM_D_T</obj_property>
+      <obj_property name="ObjectShortName">SRAM_D_T</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/LCD_CLK_IN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">LCD_CLK_IN</obj_property>
+      <obj_property name="ObjectShortName">LCD_CLK_IN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/LCD_RESET_N" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">LCD_RESET_N</obj_property>
+      <obj_property name="ObjectShortName">LCD_RESET_N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/LCD_CLOCK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">LCD_CLOCK</obj_property>
+      <obj_property name="ObjectShortName">LCD_CLOCK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/LCD_R" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">LCD_R[7:0]</obj_property>
+      <obj_property name="ObjectShortName">LCD_R[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/LCD_G" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">LCD_G[7:0]</obj_property>
+      <obj_property name="ObjectShortName">LCD_G[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/LCD_B" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">LCD_B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">LCD_B[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/LCD_SYNC_N" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">LCD_SYNC_N</obj_property>
+      <obj_property name="ObjectShortName">LCD_SYNC_N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/LCD_HSYNC_N" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">LCD_HSYNC_N</obj_property>
+      <obj_property name="ObjectShortName">LCD_HSYNC_N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/LCD_VSYNC_N" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">LCD_VSYNC_N</obj_property>
+      <obj_property name="ObjectShortName">LCD_VSYNC_N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/LCD_DEN_N" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">LCD_DEN_N</obj_property>
+      <obj_property name="ObjectShortName">LCD_DEN_N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/LCD_BLANK_N" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">LCD_BLANK_N</obj_property>
+      <obj_property name="ObjectShortName">LCD_BLANK_N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/LCD_PSAVE_N" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">LCD_PSAVE_N</obj_property>
+      <obj_property name="ObjectShortName">LCD_PSAVE_N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/LCD_CS_N" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">LCD_CS_N</obj_property>
+      <obj_property name="ObjectShortName">LCD_CS_N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/LCD_ADC_SCLK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">LCD_ADC_SCLK</obj_property>
+      <obj_property name="ObjectShortName">LCD_ADC_SCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/LCD_ADC_SDI" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">LCD_ADC_SDI</obj_property>
+      <obj_property name="ObjectShortName">LCD_ADC_SDI</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/ADC_CS_N" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ADC_CS_N</obj_property>
+      <obj_property name="ObjectShortName">ADC_CS_N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/ADC_SDO" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ADC_SDO</obj_property>
+      <obj_property name="ObjectShortName">ADC_SDO</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/ADC_IRQ_N" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ADC_IRQ_N</obj_property>
+      <obj_property name="ObjectShortName">ADC_IRQ_N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/ADC_BUSY" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ADC_BUSY</obj_property>
+      <obj_property name="ObjectShortName">ADC_BUSY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/CIS_STANDBY" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CIS_STANDBY</obj_property>
+      <obj_property name="ObjectShortName">CIS_STANDBY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/CIS_MCLK_IN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CIS_MCLK_IN</obj_property>
+      <obj_property name="ObjectShortName">CIS_MCLK_IN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/CIS_RST_N" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CIS_RST_N</obj_property>
+      <obj_property name="ObjectShortName">CIS_RST_N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/CIS_MCLK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CIS_MCLK</obj_property>
+      <obj_property name="ObjectShortName">CIS_MCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/CIS_OE_N" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CIS_OE_N</obj_property>
+      <obj_property name="ObjectShortName">CIS_OE_N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/CIS_PCLK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CIS_PCLK</obj_property>
+      <obj_property name="ObjectShortName">CIS_PCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/CIS_VSYNC" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CIS_VSYNC</obj_property>
+      <obj_property name="ObjectShortName">CIS_VSYNC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/CIS_HSYNC" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CIS_HSYNC</obj_property>
+      <obj_property name="ObjectShortName">CIS_HSYNC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/CIS_D" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CIS_D[7:0]</obj_property>
+      <obj_property name="ObjectShortName">CIS_D[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/CIS_SCL_I" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CIS_SCL_I</obj_property>
+      <obj_property name="ObjectShortName">CIS_SCL_I</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/CIS_SCL_O" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CIS_SCL_O</obj_property>
+      <obj_property name="ObjectShortName">CIS_SCL_O</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/CIS_SCL_T" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CIS_SCL_T</obj_property>
+      <obj_property name="ObjectShortName">CIS_SCL_T</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/CIS_SDA_I" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CIS_SDA_I</obj_property>
+      <obj_property name="ObjectShortName">CIS_SDA_I</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/CIS_SDA_O" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CIS_SDA_O</obj_property>
+      <obj_property name="ObjectShortName">CIS_SDA_O</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/CIS_SDA_T" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CIS_SDA_T</obj_property>
+      <obj_property name="ObjectShortName">CIS_SDA_T</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/UART_TX" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">UART_TX</obj_property>
+      <obj_property name="ObjectShortName">UART_TX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/UART_RX" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">UART_RX</obj_property>
+      <obj_property name="ObjectShortName">UART_RX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/CORE_SS_N" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CORE_SS_N</obj_property>
+      <obj_property name="ObjectShortName">CORE_SS_N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/CORE_SCLK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CORE_SCLK</obj_property>
+      <obj_property name="ObjectShortName">CORE_SCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/CORE_MOSI" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CORE_MOSI</obj_property>
+      <obj_property name="ObjectShortName">CORE_MOSI</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/CORE_MISO" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CORE_MISO</obj_property>
+      <obj_property name="ObjectShortName">CORE_MISO</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/CORE_MISO_OE_N" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CORE_MISO_OE_N</obj_property>
+      <obj_property name="ObjectShortName">CORE_MISO_OE_N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/CORE_RESET_N" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CORE_RESET_N</obj_property>
+      <obj_property name="ObjectShortName">CORE_RESET_N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/CORE_IRQ" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CORE_IRQ</obj_property>
+      <obj_property name="ObjectShortName">CORE_IRQ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/irq_uart" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">irq_uart</obj_property>
+      <obj_property name="ObjectShortName">irq_uart</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/irq_video" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">irq_video</obj_property>
+      <obj_property name="ObjectShortName">irq_video</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/irq_cis" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">irq_cis</obj_property>
+      <obj_property name="ObjectShortName">irq_cis</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/irq_cis_i2c" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">irq_cis_i2c</obj_property>
+      <obj_property name="ObjectShortName">irq_cis_i2c</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/HRESETn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">HRESETn</obj_property>
+      <obj_property name="ObjectShortName">HRESETn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/HCLK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">HCLK</obj_property>
+      <obj_property name="ObjectShortName">HCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/M_HBUSREQ" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">M_HBUSREQ[2:0]</obj_property>
+      <obj_property name="ObjectShortName">M_HBUSREQ[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/M_HGRANT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">M_HGRANT[2:0]</obj_property>
+      <obj_property name="ObjectShortName">M_HGRANT[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/M_HADDR" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">M_HADDR[2:0,31:0]</obj_property>
+      <obj_property name="ObjectShortName">M_HADDR[2:0,31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/M_HLOCK" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">M_HLOCK[2:0]</obj_property>
+      <obj_property name="ObjectShortName">M_HLOCK[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/M_HTRANS" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">M_HTRANS[2:0,1:0]</obj_property>
+      <obj_property name="ObjectShortName">M_HTRANS[2:0,1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/M_HSIZE" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">M_HSIZE[2:0,2:0]</obj_property>
+      <obj_property name="ObjectShortName">M_HSIZE[2:0,2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/M_HBURST" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">M_HBURST[2:0,2:0]</obj_property>
+      <obj_property name="ObjectShortName">M_HBURST[2:0,2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/M_HPROT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">M_HPROT[2:0,3:0]</obj_property>
+      <obj_property name="ObjectShortName">M_HPROT[2:0,3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/M_HWRITE" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">M_HWRITE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">M_HWRITE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/M_HWDATA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">M_HWDATA[2:0,31:0]</obj_property>
+      <obj_property name="ObjectShortName">M_HWDATA[2:0,31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/M_HRDATA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">M_HRDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">M_HRDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/M_HREADY" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">M_HREADY</obj_property>
+      <obj_property name="ObjectShortName">M_HREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/M_HRESP" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">M_HRESP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">M_HRESP[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/S_HADDR" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">S_HADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S_HADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/S_HWDATA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">S_HWDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S_HWDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/S_HTRANS" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">S_HTRANS[1:0]</obj_property>
+      <obj_property name="ObjectShortName">S_HTRANS[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/S_HSIZE" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">S_HSIZE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">S_HSIZE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/S_HBURST" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">S_HBURST[2:0]</obj_property>
+      <obj_property name="ObjectShortName">S_HBURST[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/S_HWRITE" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">S_HWRITE</obj_property>
+      <obj_property name="ObjectShortName">S_HWRITE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/S_HPROT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">S_HPROT[3:0]</obj_property>
+      <obj_property name="ObjectShortName">S_HPROT[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/S_HREADY" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">S_HREADY</obj_property>
+      <obj_property name="ObjectShortName">S_HREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/S_HSEL" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">S_HSEL[7:0]</obj_property>
+      <obj_property name="ObjectShortName">S_HSEL[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/S_HRDATA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">S_HRDATA[7:0,31:0]</obj_property>
+      <obj_property name="ObjectShortName">S_HRDATA[7:0,31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/S_HRESP" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">S_HRESP[7:0,1:0]</obj_property>
+      <obj_property name="ObjectShortName">S_HRESP[7:0,1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/S_HREADYout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">S_HREADYout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">S_HREADYout[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/CIS_HBUSREQ" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CIS_HBUSREQ</obj_property>
+      <obj_property name="ObjectShortName">CIS_HBUSREQ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/CIS_HGRANT" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CIS_HGRANT</obj_property>
+      <obj_property name="ObjectShortName">CIS_HGRANT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/CIS_HADDR" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CIS_HADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CIS_HADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/CIS_HPROT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CIS_HPROT[3:0]</obj_property>
+      <obj_property name="ObjectShortName">CIS_HPROT[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/CIS_HTRANS" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CIS_HTRANS[1:0]</obj_property>
+      <obj_property name="ObjectShortName">CIS_HTRANS[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/CIS_HWRITE" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CIS_HWRITE</obj_property>
+      <obj_property name="ObjectShortName">CIS_HWRITE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/CIS_HSIZE" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CIS_HSIZE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">CIS_HSIZE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/CIS_HBURST" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CIS_HBURST[2:0]</obj_property>
+      <obj_property name="ObjectShortName">CIS_HBURST[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/CIS_HWDATA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CIS_HWDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CIS_HWDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/CIS_HRDATA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CIS_HRDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CIS_HRDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/CIS_HRESP" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CIS_HRESP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">CIS_HRESP[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/CIS_HREADY" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CIS_HREADY</obj_property>
+      <obj_property name="ObjectShortName">CIS_HREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/CIS_HSEL" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CIS_HSEL</obj_property>
+      <obj_property name="ObjectShortName">CIS_HSEL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/VGA_HBUSREQ" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">VGA_HBUSREQ</obj_property>
+      <obj_property name="ObjectShortName">VGA_HBUSREQ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/VGA_HGRANT" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">VGA_HGRANT</obj_property>
+      <obj_property name="ObjectShortName">VGA_HGRANT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/VGA_HADDR" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">VGA_HADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">VGA_HADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/VGA_HPROT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">VGA_HPROT[3:0]</obj_property>
+      <obj_property name="ObjectShortName">VGA_HPROT[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/VGA_HTRANS" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">VGA_HTRANS[1:0]</obj_property>
+      <obj_property name="ObjectShortName">VGA_HTRANS[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/VGA_HWRITE" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">VGA_HWRITE</obj_property>
+      <obj_property name="ObjectShortName">VGA_HWRITE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/VGA_HSIZE" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">VGA_HSIZE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">VGA_HSIZE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/VGA_HBURST" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">VGA_HBURST[2:0]</obj_property>
+      <obj_property name="ObjectShortName">VGA_HBURST[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/VGA_HWDATA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">VGA_HWDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">VGA_HWDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/VGA_HRDATA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">VGA_HRDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">VGA_HRDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/VGA_HRESP" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">VGA_HRESP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">VGA_HRESP[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/VGA_HREADY" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">VGA_HREADY</obj_property>
+      <obj_property name="ObjectShortName">VGA_HREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/VGA_HSEL" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">VGA_HSEL</obj_property>
+      <obj_property name="ObjectShortName">VGA_HSEL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/LCD_RESET" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">LCD_RESET</obj_property>
+      <obj_property name="ObjectShortName">LCD_RESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/CIS_PCLK_BUFG" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CIS_PCLK_BUFG</obj_property>
+      <obj_property name="ObjectShortName">CIS_PCLK_BUFG</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/irq_src" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">irq_src[31:0]</obj_property>
+      <obj_property name="ObjectShortName">irq_src[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/stamp_x" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">stamp_x</obj_property>
+      <obj_property name="ObjectShortName">stamp_x</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/stamp_y" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">stamp_y</obj_property>
+      <obj_property name="ObjectShortName">stamp_y</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/NUM_MST" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">NUM_MST[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NUM_MST[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cadb_top/Usoc/NUM_SLV" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">NUM_SLV[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NUM_SLV[31:0]</obj_property>
+   </wvobject>
+</wave_config>

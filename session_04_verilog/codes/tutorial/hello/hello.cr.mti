@@ -1,0 +1,8 @@
+D:/work/Seminars/200901_Verilog_kut/codes/verilog/ex01_hello/hello.v {1 {vlog -work work D:/work/Seminars/200901_Verilog_kut/codes/verilog/ex01_hello/hello.v
+Model Technology ModelSim SE vlog 5.8c Compiler 2004.03 Mar 25 2004
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}}

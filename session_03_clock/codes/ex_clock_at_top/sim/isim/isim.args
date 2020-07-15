@@ -1,0 +1,3 @@
+   ./sim_define.v
+-i ../../bench/verilog
+   ../../bench/verilog/top.v

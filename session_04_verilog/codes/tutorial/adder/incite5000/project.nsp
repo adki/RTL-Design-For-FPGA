@@ -1,0 +1,101 @@
+[project]
+version           =iNSPIRE for iNCITE version 2.0 build 27
+date              =02/21/09 13:01:06
+emulation_hardware=incite_5000
+architecture_file =incite_5000
+emulation_mode    =cycle-level
+device            =xc3s5000-fg900-4
+hdl_simulator     =modelsim
+synthesizer       =xst
+c_compiler        =visual-studio-6.0
+cid               =0
+sim_vlog_path     =sim_verilog
+sim_vhdl_path     =sim_vhdl
+sim_path          =sim
+syn_path          =syn
+par_edif_path     =par_edif
+par_path          =par
+rtl_wiz_path      =rtl_wiz
+log_path          =log
+nativec_path      =nativec
+systemc_path      =systemc
+bitgen_opt        =
+par_opt           =-ol high -w
+map_opt           =-ol high -pr b -timing -ignore_keep_hierarchy
+ngdb_opt          =
+ctname            =
+clk_src           =SYS_CLK
+use_clk           =SYS_CLK 1 OSC_CLK 0
+use_dcm           =SYS_CLK 1 OSC_CLK 0
+clk_fx_mul        =SYS_CLK 2 OSC_CLK 2
+clk_fx_div        =SYS_CLK 2 OSC_CLK 2
+clk_dv_div        =SYS_CLK 1.5 OSC_CLK 2
+clk_freq          =SYS_CLK 48 OSC_CLK 50
+amba_list         =
+wb_list           =
+cyc_clk_info      =0 both full_adder clk
+arch_path         =
+user_sim_list     =
+user_syn_list     =
+
+[file]
+edif0=../syn/full_adder.edif full_adder
+
+[sram]
+sram_ctrl_name=
+use_sram      =0
+sram_width    =192
+
+[sdram]
+sdram_ctrl_name=
+use_sdram      =0
+
+[ddr2]
+use_ddr2=0
+
+[bila]
+use_ctif             =0
+use_ct7if            =0
+bila_mode            =none
+use_trigger          =1
+user_clk             =32.0
+bila_width           =192
+overwrite_sim_v      =1
+overwrite_sim_scr    =1
+overwrite_c_cosim_env=1
+overwrite_ucf        =1
+ignore_default_ucf   =0
+ignore_default_ut    =0
+additional_ucf       =
+additional_ut        =
+overwrite_edif       =1
+overwrite_par_scr    =1
+
+[rtlwiz]
+base_folder=
+fpga_type  =
+synthesizer=
+
+[trigger]
+sampling_rate       =
+trigger_point       =start
+main_frequency      =
+bila_mode           =
+number_of_pattern   =
+trgfn_edge_pattern  =
+trgfn_close_edge    =
+trgfn_pattern_change=
+trgfn_edge          =
+trgfn_wait          =
+trgfn_pattern       =
+trgfn_pattern_after =
+trgfn_pattern_before=
+trgfn_sequence      =
+trgfn_pattern_hold  =
+trgfn_apart_edge    =
+trgfn_nth_edge      =
+edge_combo          =
+pattern_combo       =
+edge_logic          =
+pattern_logic       =
+

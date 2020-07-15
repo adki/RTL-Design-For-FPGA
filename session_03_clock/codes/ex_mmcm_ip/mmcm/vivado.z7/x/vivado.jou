@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:39:14 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Wed Jul 15 12:26:01 2020
+# Process ID: 6788
+# Current directory: /home/adki/work/seminars/202007_KAIST_NCL/session_03_clock/codes/ex_mmcm_ip/mmcm/vivado.z7/x
+# Command line: vivado
+# Log file: /home/adki/work/seminars/202007_KAIST_NCL/session_03_clock/codes/ex_mmcm_ip/mmcm/vivado.z7/x/vivado.log
+# Journal file: /home/adki/work/seminars/202007_KAIST_NCL/session_03_clock/codes/ex_mmcm_ip/mmcm/vivado.z7/x/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/adki/work/seminars/202007_KAIST_NCL/session_03_clock/codes/ex_mmcm_ip/mmcm/vivado.z7/x/managed_ip_project/managed_ip_project.xpr
+set_property -dict [list CONFIG.PRIM_IN_FREQ {300.000} CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {200.000} CONFIG.CLKOUT1_REQUESTED_DUTY_CYCLE {20.000} CONFIG.CLKIN1_JITTER_PS {33.330000000000005} CONFIG.MMCM_DIVCLK_DIVIDE {3} CONFIG.MMCM_CLKIN1_PERIOD {3.333} CONFIG.MMCM_CLKIN2_PERIOD {10.0} CONFIG.MMCM_CLKOUT0_DIVIDE_F {4.000} CONFIG.MMCM_CLKOUT0_DUTY_CYCLE {0.250} CONFIG.CLKOUT1_JITTER {125.285} CONFIG.CLKOUT2_JITTER {149.678}] [get_ips clk_wizard]

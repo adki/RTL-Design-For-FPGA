@@ -1,0 +1,50 @@
+D:/work/Seminars/200901_Verilog_kut/codes/verilog/ex02_adder.x/design/half_adder_rtl.v {1 {vlog -work work D:/work/Seminars/200901_Verilog_kut/codes/verilog/ex02_adder.x/design/half_adder_rtl.v
+Model Technology ModelSim SE vlog 5.8c Compiler 2004.03 Mar 25 2004
+-- Compiling module half_adder_rtl
+
+Top level modules:
+	half_adder_rtl
+
+} {} {}} D:/work/Seminars/200901_Verilog_kut/codes/verilog/ex02_adder.x/design/top.v {1 {vlog -work work D:/work/Seminars/200901_Verilog_kut/codes/verilog/ex02_adder.x/design/top.v
+Model Technology ModelSim SE vlog 5.8c Compiler 2004.03 Mar 25 2004
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} D:/work/Seminars/200901_Verilog_kut/codes/verilog/ex02_adder.x/design/checker.v {1 {vlog -work work D:/work/Seminars/200901_Verilog_kut/codes/verilog/ex02_adder.x/design/checker.v
+Model Technology ModelSim SE vlog 5.8c Compiler 2004.03 Mar 25 2004
+-- Compiling module checker
+
+Top level modules:
+	checker
+
+} {} {}} D:/work/Seminars/200901_Verilog_kut/codes/verilog/ex02_adder.x/design/half_adder_gate.v {1 {vlog -work work D:/work/Seminars/200901_Verilog_kut/codes/verilog/ex02_adder.x/design/half_adder_gate.v
+Model Technology ModelSim SE vlog 5.8c Compiler 2004.03 Mar 25 2004
+-- Compiling module half_adder_gate
+
+Top level modules:
+	half_adder_gate
+
+} {} {}} D:/work/Seminars/200901_Verilog_kut/codes/verilog/ex02_adder.x/design/full_adder_ref.v {1 {vlog -work work D:/work/Seminars/200901_Verilog_kut/codes/verilog/ex02_adder.x/design/full_adder_ref.v
+Model Technology ModelSim SE vlog 5.8c Compiler 2004.03 Mar 25 2004
+-- Compiling module full_adder_ref
+
+Top level modules:
+	full_adder_ref
+
+} {} {}} D:/work/Seminars/200901_Verilog_kut/codes/verilog/ex02_adder.x/design/stimulus.v {1 {vlog -work work D:/work/Seminars/200901_Verilog_kut/codes/verilog/ex02_adder.x/design/stimulus.v
+Model Technology ModelSim SE vlog 5.8c Compiler 2004.03 Mar 25 2004
+-- Compiling module stimulus
+
+Top level modules:
+	stimulus
+
+} {} {}} D:/work/Seminars/200901_Verilog_kut/codes/verilog/ex02_adder.x/design/full_adder.v {1 {vlog -work work D:/work/Seminars/200901_Verilog_kut/codes/verilog/ex02_adder.x/design/full_adder.v
+Model Technology ModelSim SE vlog 5.8c Compiler 2004.03 Mar 25 2004
+-- Compiling module full_adder
+
+Top level modules:
+	full_adder
+
+} {} {}}

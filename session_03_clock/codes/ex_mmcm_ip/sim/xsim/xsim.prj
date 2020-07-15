@@ -1,0 +1,7 @@
+verilog work \
+           $XILINX_VIVADO/data/verilog/src/glbl.v\
+        -i ../../bench/verilog\
+           ../../bench/verilog/top.v\
+        -i ../../mmcm/vivado.$FPGA_TYPE/clk_wizard\
+           ../../mmcm/vivado.$FPGA_TYPE/clk_wizard/clk_wizard_sim_netlist.v
+

@@ -1,0 +1,4 @@
+
+ex_mem_apb_task/             Task-based mem_apb testing
+ex_mem_apb_fpga/             Distributed-RAM mem_apb testin on FPGA
+ex_mem_apb_fpg_bram/         BRAM mem_apb testing on FPGA

@@ -1,0 +1,46 @@
+#
+# Makefile
+#
+# Copyright (c) 2005 by Dynalith Systems Co., Ltd.
+# All rights reserved.
+#
+#
+SHELL = /bin/sh
+###########################
+PLATFORM	= `uname -s`
+SIMULATOR	= modelsim
+#MODEL_TECH	= /c/Modeltech_xe_starter/win32xoem
+MODEL_TECH	= /c/Modeltech_5.8c/win32
+VPIHDR		= $(MODEL_TECH)/include
+VLIB		= $(MODEL_TECH)/vlib
+VLOG		= $(MODEL_TECH)/vlog
+VSIM		= $(MODEL_TECH)/vsim
+###########################
+WORK_DIR	= work
+INC_DIR		= .
+DESIGN_DIR	= .
+DESIGN		= $(DESIGN_DIR)/top.v\
+		  $(DESIGN_DIR)/stimulus.v\
+		  $(DESIGN_DIR)/checker.v\
+		  $(DESIGN_DIR)/full_adder.v
+DESIGN_TOP	= top
+###########################
+
+all: compile simulate
+
+compile: $(DESIGN)
+	$(VLIB) $(WORK_DIR)
+	for F in $(DESIGN); do\
+		$(VLOG) -lint -work $(WORK_DIR) +define+_VCD_\
+			+incdir+$(INC_DIR) $$F;\
+	done
+
+simulate: $(WORK_DIR)/$(DESIGN_DESIGN)
+	$(VSIM) -c -do "run -all" $(WORK_DIR).$(DESIGN_TOP)
+
+clean:
+	/bin/rm -f  transcript 
+	/bin/rm -f  wave.vcd
+
+cleanup: clean
+	/bin/rm -rf $(WORK_DIR)

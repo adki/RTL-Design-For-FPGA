@@ -1,0 +1,35 @@
+Release 10.1.03 Map K.39 (nt)
+Xilinx Map Application Log File for Design 'full_adder'
+
+Design Information
+------------------
+Command Line   : map -p xc3s1000-fg456-4 -o full_adder.ncd full_adder.ngd
+full_adder.pcf 
+Target Device  : xc3s1000
+Target Package : fg456
+Target Speed   : -4
+Mapper Version : spartan3 -- $Revision: 1.46.12.2 $
+Mapped Date    : Wed Feb 18 20:48:56 2009
+
+Mapping design into LUTs...
+ERROR:MapLib:979 - LUT2 symbol "ha2/C1" (output signal=c2) has input signal "B"
+   which will be trimmed. See Section 5 of the Map Report File for details about
+   why the input signal will become undriven.
+ERROR:MapLib:979 - LUT2 symbol "ha2/Mxor_S_Result1" (output signal=sum) has
+   input signal "B" which will be trimmed. See Section 5 of the Map Report File
+   for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT2 symbol "ha2/C1" (output signal=c2) has input signal "B"
+   which will be trimmed. See Section 5 of the Map Report File for details about
+   why the input signal will become undriven.
+ERROR:MapLib:979 - LUT2 symbol "ha2/Mxor_S_Result1" (output signal=sum) has
+   input signal "B" which will be trimmed. See Section 5 of the Map Report File
+   for details about why the input signal will become undriven.
+
+Error found in mapping process, exiting...
+Errors found during the mapping phase.  Please see map report file for more
+details.  Output files will not be written.
+
+Design Summary
+--------------
+Number of errors   :   4
+Number of warnings :   2

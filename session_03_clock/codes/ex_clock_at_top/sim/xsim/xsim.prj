@@ -1,0 +1,4 @@
+verilog work \
+        -d SIM -d VCD -d VIVADO\
+	-i ../../bench/verilog\
+           ../../bench/verilog/top.v

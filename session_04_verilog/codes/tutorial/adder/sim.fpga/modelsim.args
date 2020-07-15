@@ -1,0 +1,10 @@
+//-----------------------------------------
++incdir+../design
++define+iNCITE
+//-----------------------------------------
+../design/top.v
+../incite5000/sim_verilog/full_adder_proxy.v
+../design/stimulus.v
+../design/full_adder_ref.v
+../design/checker.v
+//-----------------------------------------

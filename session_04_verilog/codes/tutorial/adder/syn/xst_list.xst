@@ -1,0 +1,3 @@
+verilog xst "../design/full_adder.v"
+verilog xst "../design/half_adder_gate.v"
+verilog xst "../design/half_adder_rtl.v"

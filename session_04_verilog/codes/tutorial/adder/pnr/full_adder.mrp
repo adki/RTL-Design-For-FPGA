@@ -1,0 +1,50 @@
+Release 10.1.03 Map K.39 (nt)
+Xilinx Mapping Report File for Design 'full_adder'
+
+Design Information
+------------------
+Command Line   : map -p xc3s1000-fg456-4 -o full_adder.ncd full_adder.ngd
+full_adder.pcf 
+Target Device  : xc3s1000
+Target Package : fg456
+Target Speed   : -4
+Mapper Version : spartan3 -- $Revision: 1.46.12.2 $
+Mapped Date    : Wed Feb 18 20:48:56 2009
+
+Design Summary
+--------------
+Number of errors   :   4
+Number of warnings :   2
+
+Section 1 - Errors
+------------------
+ERROR:MapLib:979 - LUT2 symbol "ha2/C1" (output signal=c2) has input signal "B"
+   which will be trimmed. See Section 5 of the Map Report File for details about
+   why the input signal will become undriven.
+ERROR:MapLib:979 - LUT2 symbol "ha2/Mxor_S_Result1" (output signal=sum) has
+   input signal "B" which will be trimmed. See Section 5 of the Map Report File
+   for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT2 symbol "ha2/C1" (output signal=c2) has input signal "B"
+   which will be trimmed. See Section 5 of the Map Report File for details about
+   why the input signal will become undriven.
+ERROR:MapLib:979 - LUT2 symbol "ha2/Mxor_S_Result1" (output signal=sum) has
+   input signal "B" which will be trimmed. See Section 5 of the Map Report File
+   for details about why the input signal will become undriven.
+
+Section 2 - Warnings
+--------------------
+WARNING:LIT:243 - Logical network cout has no load.
+WARNING:LIT:395 - The above warning message base_net_load_rule is repeated 1
+   more times for the following (max. 5 shown):
+   sum
+   To see the details of these warning messages, please use the -detail switch.
+
+Section 3 - Informational
+-------------------------
+INFO:MapLib:562 - No environment variables are currently set.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+
+Section 5 - Removed Logic
+-------------------------

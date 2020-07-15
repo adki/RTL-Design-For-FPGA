@@ -1,0 +1,8 @@
+verilog work \
+        -d SIM -d VCD -d VIVADO -d GATESIM\
+           $XILINX_VIVADO/data/verilog/src/glbl.v\
+	-i ../../bench/verilog\
+           ../../bench/verilog/top.v\
+           ../../bench/verilog/tester.v\
+	-i ../../syn/vivado.z7\
+           ../../syn/vivado.z7/memory.vm
