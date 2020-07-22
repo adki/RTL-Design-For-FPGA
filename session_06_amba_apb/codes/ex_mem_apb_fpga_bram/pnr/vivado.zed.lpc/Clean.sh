@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 \rm -f *.log
 \rm -f *.tcf
 \rm -f *.rbt

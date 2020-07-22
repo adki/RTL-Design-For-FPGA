@@ -1,0 +1,7 @@
+gpif2slv.v
+        |
+        +-- gpif2if_fifo_sync.v
+        |
+        +-- gpif2slv_trx_axi_tasks.v       TRX_AXI tasks
+                    |
+                    +-- gpif2slv_tasks.v   GPIF2MST tasks

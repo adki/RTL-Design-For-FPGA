@@ -1,0 +1,23 @@
+# common
+twiddle_table.txt
+wave.vcd
+wave.gtkw
+
+# for modelsim
+compile.log
+transcript
+work
+unisims_ver
+
+# for xsim
+top.wdb
+wave.vcd
+webtalk*
+xelab.*
+xsim.dir
+xsim.jou
+xsim.log
+
+# iverilog
+compile.log
+vvp.log

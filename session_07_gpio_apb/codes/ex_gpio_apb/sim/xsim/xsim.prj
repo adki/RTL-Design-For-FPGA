@@ -1,0 +1,7 @@
+verilog work \
+        -d SIM -d VCD -d VIVADO\
+	-i ../../bench/verilog\
+	-i ../../rtl/verilog\
+           ../../bench/verilog/top.v\
+           ../../bench/verilog/apb_gpio_tester.v\
+           ../../rtl/verilog/gpio_apb.v

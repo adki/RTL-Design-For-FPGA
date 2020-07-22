@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 /bin/rm -f  _eifgen.log
 /bin/rm -f  fpga0.eif

@@ -1,0 +1,11 @@
+verilog work \
+        -d SIM -d VCD -d VIVADO\
+           ./sim_define.v\
+	-i ../../bench/verilog\
+           ../../bench/verilog/top.v\
+        -i ../../design/verilog\
+           ../../design/verilog/axi_switch_m2s2.v\
+        -i ../../../ex_bfm_axi_task/bench/verilog\
+           ../../../ex_bfm_axi_task/bench/verilog/bfm_axi.v\
+        -i ../../../ex_bfm_axi_task/design/verilog\
+           ../../../ex_bfm_axi_task/design/verilog/mem_axi.v

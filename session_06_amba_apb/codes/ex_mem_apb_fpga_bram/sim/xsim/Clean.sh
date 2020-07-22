@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 /bin/rm -f  top.wdb
 /bin/rm -f  wave.vcd

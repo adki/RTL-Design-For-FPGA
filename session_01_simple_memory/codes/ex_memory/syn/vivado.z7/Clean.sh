@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 if [ -d xst             ]; then \rm -rf xst;            fi
 if [ -d _xmsgs          ]; then \rm -rf _xmsgs;            fi
 if [ -f compile.log     ]; then \rm -f compile.log;    fi

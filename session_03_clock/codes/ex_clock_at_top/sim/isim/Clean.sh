@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 WORK=work
 SIM=my_sim

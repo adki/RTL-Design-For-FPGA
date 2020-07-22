@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 for F in *; do
     if [[ -d "${F}" && ! -L "${F}" ]]; then

@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 if [ -d work                 ]; then \rm -rf work;                fi
 if [ -f transcript           ]; then \rm -f transcript;           fi
