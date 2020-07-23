@@ -1,0 +1,8 @@
++libext+.v
++notimingchecks
++define+VCD
++incdir+../../bench/verilog
++incdir+../../rtl/verilog
+        ../../bench/verilog/top.v
+        ../../bench/verilog/apb_gpio_tester.v
+        ../../rtl/verilog/gpio_apb.v

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/DIP_0032_gpio_amba/!svn/ver/2/trunk/sim/modelsim
+END
+modelsim.args
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/DIP_0032_gpio_amba/!svn/ver/2/trunk/sim/modelsim/modelsim.args
+END
+Clean.bat
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/DIP_0032_gpio_amba/!svn/ver/2/trunk/sim/modelsim/Clean.bat
+END
+Clean.sh
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/DIP_0032_gpio_amba/!svn/ver/2/trunk/sim/modelsim/Clean.sh
+END
+RunMe.bat
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/DIP_0032_gpio_amba/!svn/ver/2/trunk/sim/modelsim/RunMe.bat
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/DIP_0032_gpio_amba/!svn/ver/2/trunk/sim/modelsim/Makefile
+END

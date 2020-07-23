@@ -1,0 +1,9 @@
+K 12
+svn:keywords
+V 22
+Author Date Id Rev URL
+K 15
+tsvn:logsummary
+V 20
+\[REVISION\]:\s+(.*)
+END
