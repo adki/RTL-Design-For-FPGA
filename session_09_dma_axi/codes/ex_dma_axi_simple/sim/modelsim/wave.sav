@@ -1,0 +1,36 @@
+[timestart] 3399
+[size] 1313 917
+[pos] -1 -1
+*-7.673347 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.u_dma.
+[treeopen] top.u_dma.u_master.
+@28
+top.u_dma.u_master.HCLK
+top.u_dma.u_master.DMA_GO
+top.u_dma.u_master.DMA_BUSY
+top.u_dma.u_master.DMA_DONE
+@22
+#DMA_SRC[31:0] top.u_dma.u_master.DMA_SRC[31] top.u_dma.u_master.DMA_SRC[30] top.u_dma.u_master.DMA_SRC[29] top.u_dma.u_master.DMA_SRC[28] top.u_dma.u_master.DMA_SRC[27] top.u_dma.u_master.DMA_SRC[26] top.u_dma.u_master.DMA_SRC[25] top.u_dma.u_master.DMA_SRC[24] top.u_dma.u_master.DMA_SRC[23] top.u_dma.u_master.DMA_SRC[22] top.u_dma.u_master.DMA_SRC[21] top.u_dma.u_master.DMA_SRC[20] top.u_dma.u_master.DMA_SRC[19] top.u_dma.u_master.DMA_SRC[18] top.u_dma.u_master.DMA_SRC[17] top.u_dma.u_master.DMA_SRC[16] top.u_dma.u_master.DMA_SRC[15] top.u_dma.u_master.DMA_SRC[14] top.u_dma.u_master.DMA_SRC[13] top.u_dma.u_master.DMA_SRC[12] top.u_dma.u_master.DMA_SRC[11] top.u_dma.u_master.DMA_SRC[10] top.u_dma.u_master.DMA_SRC[9] top.u_dma.u_master.DMA_SRC[8] top.u_dma.u_master.DMA_SRC[7] top.u_dma.u_master.DMA_SRC[6] top.u_dma.u_master.DMA_SRC[5] top.u_dma.u_master.DMA_SRC[4] top.u_dma.u_master.DMA_SRC[3] top.u_dma.u_master.DMA_SRC[2] top.u_dma.u_master.DMA_SRC[1] top.u_dma.u_master.DMA_SRC[0]
+#DMA_DST[31:0] top.u_dma.u_master.DMA_DST[31] top.u_dma.u_master.DMA_DST[30] top.u_dma.u_master.DMA_DST[29] top.u_dma.u_master.DMA_DST[28] top.u_dma.u_master.DMA_DST[27] top.u_dma.u_master.DMA_DST[26] top.u_dma.u_master.DMA_DST[25] top.u_dma.u_master.DMA_DST[24] top.u_dma.u_master.DMA_DST[23] top.u_dma.u_master.DMA_DST[22] top.u_dma.u_master.DMA_DST[21] top.u_dma.u_master.DMA_DST[20] top.u_dma.u_master.DMA_DST[19] top.u_dma.u_master.DMA_DST[18] top.u_dma.u_master.DMA_DST[17] top.u_dma.u_master.DMA_DST[16] top.u_dma.u_master.DMA_DST[15] top.u_dma.u_master.DMA_DST[14] top.u_dma.u_master.DMA_DST[13] top.u_dma.u_master.DMA_DST[12] top.u_dma.u_master.DMA_DST[11] top.u_dma.u_master.DMA_DST[10] top.u_dma.u_master.DMA_DST[9] top.u_dma.u_master.DMA_DST[8] top.u_dma.u_master.DMA_DST[7] top.u_dma.u_master.DMA_DST[6] top.u_dma.u_master.DMA_DST[5] top.u_dma.u_master.DMA_DST[4] top.u_dma.u_master.DMA_DST[3] top.u_dma.u_master.DMA_DST[2] top.u_dma.u_master.DMA_DST[1] top.u_dma.u_master.DMA_DST[0]
+#DMA_BNUM[15:0] top.u_dma.u_master.DMA_BNUM[15] top.u_dma.u_master.DMA_BNUM[14] top.u_dma.u_master.DMA_BNUM[13] top.u_dma.u_master.DMA_BNUM[12] top.u_dma.u_master.DMA_BNUM[11] top.u_dma.u_master.DMA_BNUM[10] top.u_dma.u_master.DMA_BNUM[9] top.u_dma.u_master.DMA_BNUM[8] top.u_dma.u_master.DMA_BNUM[7] top.u_dma.u_master.DMA_BNUM[6] top.u_dma.u_master.DMA_BNUM[5] top.u_dma.u_master.DMA_BNUM[4] top.u_dma.u_master.DMA_BNUM[3] top.u_dma.u_master.DMA_BNUM[2] top.u_dma.u_master.DMA_BNUM[1] top.u_dma.u_master.DMA_BNUM[0]
+#DMA_BURST[4:0] top.u_dma.u_master.DMA_BURST[4] top.u_dma.u_master.DMA_BURST[3] top.u_dma.u_master.DMA_BURST[2] top.u_dma.u_master.DMA_BURST[1] top.u_dma.u_master.DMA_BURST[0]
+@23
+top.u_dma.u_master.state[3:0]
+@200
+-
+@28
+top.u_dma.u_master.HBUSREQ
+top.u_dma.u_master.HGRANT
+@22
+top.u_dma.u_master.HADDR[31:0]
+@28
+top.u_dma.u_master.HTRANS[1:0]
+top.u_dma.u_master.HSIZE[2:0]
+top.u_dma.u_master.HBURST[2:0]
+top.u_dma.u_master.HWRITE
+@22
+top.u_dma.u_master.HWDATA[31:0]
+#HRDATA[31:0] top.u_dma.u_master.HRDATA[31] top.u_dma.u_master.HRDATA[30] top.u_dma.u_master.HRDATA[29] top.u_dma.u_master.HRDATA[28] top.u_dma.u_master.HRDATA[27] top.u_dma.u_master.HRDATA[26] top.u_dma.u_master.HRDATA[25] top.u_dma.u_master.HRDATA[24] top.u_dma.u_master.HRDATA[23] top.u_dma.u_master.HRDATA[22] top.u_dma.u_master.HRDATA[21] top.u_dma.u_master.HRDATA[20] top.u_dma.u_master.HRDATA[19] top.u_dma.u_master.HRDATA[18] top.u_dma.u_master.HRDATA[17] top.u_dma.u_master.HRDATA[16] top.u_dma.u_master.HRDATA[15] top.u_dma.u_master.HRDATA[14] top.u_dma.u_master.HRDATA[13] top.u_dma.u_master.HRDATA[12] top.u_dma.u_master.HRDATA[11] top.u_dma.u_master.HRDATA[10] top.u_dma.u_master.HRDATA[9] top.u_dma.u_master.HRDATA[8] top.u_dma.u_master.HRDATA[7] top.u_dma.u_master.HRDATA[6] top.u_dma.u_master.HRDATA[5] top.u_dma.u_master.HRDATA[4] top.u_dma.u_master.HRDATA[3] top.u_dma.u_master.HRDATA[2] top.u_dma.u_master.HRDATA[1] top.u_dma.u_master.HRDATA[0]
+@28
+top.u_dma.u_master.HREADY

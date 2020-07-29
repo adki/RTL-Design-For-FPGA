@@ -99,6 +99,7 @@ if { ${ILA} == 1} {
    } else {
         set BIT $::env(BIT)
    }
+   set GUI 1
 } else {
    if {[info exists env(BIT)] == 0} {
         set BIT fpga.bit
@@ -241,7 +242,7 @@ if { ${ILA} == 0 } {
     }
 }
 
-if { ${GUI} == 0 } {
+if { (${GUI} == 0) && (${ILA} == 0) } {
     exit
 }
 

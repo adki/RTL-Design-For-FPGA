@@ -36,6 +36,7 @@ export DEVICE = xc7z020-clg484-1
 export MODULE = fpga
 export BOARD  = BOARD_ZED
 export RIGOR  = 1
+export ILA   ?= 0
 export GUI   ?= 1
 
 FLOG	= $(MODULE)
@@ -65,7 +66,7 @@ clean:
 	-@/bin/rm -f  fsm_encoding.os
 	-@/bin/rm -f  impact_impact.xwbt  impact.xsl webtalk.log
 	-@/bin/rm -f  tight_setup_hold_pins.txt
-	-@/bin/rm -f  target.xdc
+	-@/bin/rm -f  target.xdc hs_err_pid9428.log
 	for D in $(DIRS); do\
 		if [ -f $$D/Makefile ] ; then \
 			echo "make -C $$D -s $@";\

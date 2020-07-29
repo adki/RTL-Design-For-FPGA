@@ -1,0 +1,14 @@
+
+dma_axi_simple.v
+    |
+    +-- dma_axi_simple_csr_axi.v
+    |       |
+    |       +-- dma_axi_simple_csr_read.v
+    |       +-- dma_axi_simple_csr_write.v
+    |       +-- dma_axi_simple_csr.v
+    |
+    +-- dma_axi_simple_core.v
+            |
+            +-- dma_axi_simple_core_read.v
+            +-- dma_axi_simple_core_write.v
+            +-- dma_axi_simple_fifo_sync_small.v
