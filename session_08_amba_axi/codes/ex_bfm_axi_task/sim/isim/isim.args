@@ -1,0 +1,6 @@
+-i ../../design/verilog
+   ./sim_define.v
+   ../../design/verilog/bfm_axi.v
+   ../../design/verilog/mem_axi.v
+-i ../../bench/verilog
+   ../../bench/verilog/top.v

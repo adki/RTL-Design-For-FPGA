@@ -1,0 +1,8 @@
+-i ../../design/verilog
+   ./sim_define.v
+   ../../design/verilog/axi_switch_m2s2.v
+-i ../../../../bfm_axi_task/example/design/verilog
+   ../../../../bfm_axi_task/example/design/verilog/bfm_axi.v
+   ../../../../bfm_axi_task/example/design/verilog/mem_axi.v
+-i ../../bench/verilog
+   ../../bench/verilog/top.v
